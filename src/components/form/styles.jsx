@@ -9,7 +9,7 @@ export const Container = styled.div`
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding: 15px 0px;
+  padding: 25px 40px 25px;
   gap: 10px;
 
   @media (max-width: 750px) {
@@ -22,7 +22,13 @@ export const InputContent = styled.div`
   flex-direction: column;
 `;
 
-export const Label = styled.label``;
+export const Label = styled.label`
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  max-width: 1120px;
+`;
 
 export const Input = styled.input`
   outline: none;
